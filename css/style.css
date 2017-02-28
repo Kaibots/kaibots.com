@@ -94,7 +94,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 100px 0 200px 0;
   position: relative;
 }
 #slider:before {
@@ -805,3 +805,31 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+#mc_embed_signup {
+  clear: left; 
+  text-align: left;
+  margin-left: 145px;
+  margin-top: 50px;
+}
+#mc_embed_signup_scroll label {
+  margin-right: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+#mc_embed_signup_scroll input {
+  padding: 10px;
+  vertical-align: top;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+#mc_embed_signup_scroll input[type="email"] {
+  width: 240px;
+}
+#mc_embed_signup_scroll input[type="submit"] {
+  background-color: white;
+}
+#mc_embed_signup_scroll input[type="submit"]:hover {
+  background-color: #DBDBDB;
