@@ -8,6 +8,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  margin-top: 60px;
 }
 h1,
 h2,
@@ -59,7 +60,11 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 5px 0;
+  position: fixed;
+  margin-top: -60px;
+  z-index: 10;
+  width: 100%;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -120,6 +125,12 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
+@media(max-width:768px) {
+  #slider .block h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
@@ -129,7 +140,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #slider .block img {
-width: 70%;
+  width: 70%;
+}
+@media(max-width: 768px) {
+  #slider img {
+    width: 100%;
+  }
 }
 /*--
 	wrapper Start 
@@ -151,6 +167,9 @@ width: 70%;
 }
 #intro .section-title {
   margin-bottom: 0px;
+}
+#intro .section-title h2 {
+  line-height: 1;
 }
 #intro .section-title p {
   padding-top: 20px;
@@ -268,6 +287,12 @@ width: 70%;
 --*/
 #testimonial {
   padding: 90px 0;
+}
+#testimonial .section-title h2 {
+  margin: 0 10px;
+}
+#testimonial .section-title p {
+  margin: 0 15px;
 }
 #testimonial .block h2 {
   line-height: 27px;
